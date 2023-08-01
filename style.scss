@@ -1,0 +1,102 @@
+body {
+    margin : 0 !important;
+    padding: 0 !important;
+}
+
+.banner {
+    height    : 100%;
+    background: url('./Background.jpg') center center no-repeat;
+    padding   : 20px;
+
+    .about-signin {
+        height    : 80px;
+        width     : 100%;
+        text-align: right;
+
+        .about,
+        .signin {
+            font-size      : 13px;
+            font-family    : 'Times New Roman', Times, serif;
+            text-decoration: none;
+            margin-top     : 25px;
+            display        : inline-block;
+            padding        : 10px 20px;
+        }
+
+        .about {
+            color: black;
+        }
+
+        .signin {
+            margin-right : 200px;
+            margin-left  : 30px;
+            color        : rgb(84, 147, 57);
+            border-radius: 20px;
+            border       : 2px solid rgb(84, 147, 57);
+        }
+    }
+
+    .logo {
+        margin-top     : 100px;
+        height         : 100px;
+        background     : url('./hapoERP.png') center center no-repeat;
+        background-size: 240px 80px;
+    }
+
+    .content-center {
+        margin-top: 50px;
+        height    : 100px;
+
+        .left,
+        .right,
+        .center {
+            width     : 33%;
+            display   : inline-block;
+            text-align: center;
+        }
+
+        img {
+            width : 70px;
+            height: 70px;
+        }
+
+        span {
+            margin-top: 10px;
+            display   : block;
+            font-size : 40px;
+        }
+
+    }
+
+    .text {
+        margin-top: 80px;
+        text-align: center;
+
+        span {
+            margin-top: 10px;
+            display   : block;
+            font-size : 20px;
+            font-style: italic;
+        }
+    }
+
+    .btn-start-now {
+        text-align: center;
+
+        button {
+            color         : white;
+            text-transform: uppercase;
+            border-radius : 25px;
+            border        : 2px solid rgb(0, 0, 0);
+            padding       : 10px 20px;
+            font-family   : 'Times New Roman', Times, serif;
+            font-size     : 16px;
+            margin-top    : 20px;
+            cursor        : pointer;
+            background    : linear-gradient(to right, rgb(64, 121, 39), rgb(146, 219, 115));
+            box-shadow    : 2px 2px 2px rgba(65, 64, 64, 0.6);
+        }
+    }
+
+
+}
